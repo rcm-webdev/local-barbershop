@@ -3,6 +3,7 @@ import Button from "../shared/Button.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
 import ByNumber from "./ByNumber.astro";
+import BtnLink from "../shared/BtnLink.astro";
 ---
 
 <section class="relative pt-32 lg:pt-36">
@@ -68,8 +69,11 @@ import ByNumber from "./ByNumber.astro";
               placeholder="johndoe@gmail.com"
               class="w-full py-3 outline-none bg-transparent"
             />
+
             <Button variant={"primary"} className={"min-w-max text-white"}>
-              <span class="hidden sm:flex relative z-[5]"> Get Started</span>
+              <span class="hidden sm:flex relative z-[5]">
+                <a href="#cta">Book Online</a>
+              </span>
               <span class="flex sm:hidden relative z-[5]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
