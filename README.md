@@ -1,15 +1,11 @@
-<h1>AgenceX Landing page</h1>
+<h1>Barbershop Landing page</h1>
 
-A simple landing page for a digital agency
-
-![AgenceX light Theme](./screens/demoLight.webp)
-![AgenceX Dark Theme](./screens/demoDark.webp)
-
+A simple landing page for a local barbershop
 
 ## Tools
+
 - TailwindCSS v3.3
 - AstroJs v3
-
 
 ## 🚀 Project Structure
 
@@ -36,7 +32,6 @@ Inside of your Astro project, you'll see the following folders and files:
 └── tailwind.config.cjs
 ```
 
-
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -49,5 +44,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`      | Preview your build locally, before deploying     |
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
-
-
