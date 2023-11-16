@@ -3,78 +3,23 @@ import GroupFooterNav from "../blocks/GroupFooterNav.astro";
 import Container from "../shared/Container.astro";
 import FooterNav from "../shared/FooterNav.astro";
 import Paragraph from "../shared/Paragraph.astro";
-const footerNav1 = [
-  {
-    itemText: "Marketing",
-    itemLink: "#",
-  },
-  {
-    itemText: "Analylitics",
-    itemLink: "#",
-  },
-  {
-    itemText: "Commerce",
-    itemLink: "#",
-  },
-  {
-    itemText: "Insights",
-    itemLink: "#",
-  },
-];
-
-const footerSupport = [
-  {
-    itemText: "Pricing",
-    itemLink: "#",
-  },
-  {
-    itemText: "Guides",
-    itemLink: "#",
-  },
-  {
-    itemText: "FAQ",
-    itemLink: "#",
-  },
-  {
-    itemText: "Contact",
-    itemLink: "#",
-  },
-];
 
 const footerCompany = [
   {
     itemText: "About",
-    itemLink: "/about",
+    itemLink: "#about-us",
   },
   {
-    itemText: "Blog",
-    itemLink: "#",
+    itemText: "Services",
+    itemLink: "#services",
   },
   {
-    itemText: "Jobs",
-    itemLink: "#",
+    itemText: "Features",
+    itemLink: "#features",
   },
   {
-    itemText: "Parteners",
-    itemLink: "#",
-  },
-  {
-    itemText: "Jobs",
-    itemLink: "#",
-  },
-];
-const footerLegal = [
-  {
-    itemText: "Claim",
-    itemLink: "/#",
-  },
-  {
-    itemText: "Privacy",
-    itemLink: "#",
-  },
-  {
-    itemText: "Terms",
-    itemLink: "#",
+    itemText: "Our Barbers",
+    itemLink: "#our-barbers",
   },
 ];
 ---
@@ -138,9 +83,14 @@ const footerLegal = [
               Local Legendz Barbershop
             </div>
           </a>
-          <Paragraph className={"mt-8"}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-            maiores nam doloribus id magni
+          <Paragraph className={"mt-8 "}>
+            <a
+              href="https://maps.app.goo.gl/bLUqKjLhi7f7r3dD6"
+              target="_blank"
+              class="mb-2">1917 E Sprague Ave Spokane, WA 99202</a
+            >
+
+            <a href="tel:5096089699">(509)608-9699</a>
           </Paragraph>
         </div>
 
@@ -214,12 +164,6 @@ const footerLegal = [
 
       <GroupFooterNav>
         <FooterNav title={"Company"} navItems={footerCompany} />
-        <FooterNav title={"Solutions"} navItems={footerNav1} />
-      </GroupFooterNav>
-
-      <GroupFooterNav>
-        <FooterNav title={"Support"} navItems={footerSupport} />
-        <FooterNav title={"Ressources"} navItems={footerLegal} />
       </GroupFooterNav>
     </div>
   </Container>
@@ -233,10 +177,8 @@ const footerLegal = [
           reserved
         </div>
         <div>
-          Made with <br />
-          <a href="/" target="_blank" class="font-semibold"
-            >&#8513;LITCH DESIGN STUDIO
-          </a>
+          Made with
+          <a href="/" target="_blank" class="font-semibold">****</a>
         </div>
       </div>
     </Container>
