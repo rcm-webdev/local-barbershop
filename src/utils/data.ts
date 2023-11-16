@@ -47,31 +47,31 @@ const testimonials = [
     image: "https://i.pravatar.cc/100?img=56",
   },
   {
-    title: "Patrick M.",
+    title: "Ricky M.",
     description:
       "I’ve been going to Q for years, and I’ve never been disappointed. The barbers are skilled and professional, and the atmosphere is always relaxed and comfortable. I wouldn’t go anywhere else!",
     image: "https://i.pravatar.cc/100?img=68",
   },
   {
-    title: "Patrick M.",
+    title: "Jose B.",
     description:
       "Local Legendz Barbershop is the best barbershop in town! The staff is friendly and knowledgeable, and they always give me the perfect haircut. I highly recommend this place to anyone looking for a great haircut",
     image: "https://i.pravatar.cc/100?img=62",
   },
   {
-    title: "Patrick M.",
+    title: "Travis S.",
     description:
       "I recently visited Local Legendz for the first time, and I was blown away by the quality of service. The staff was friendly and professional, and the haircut I received was exactly what I was looking for. I will definitely be back!",
     image: "https://i.pravatar.cc/100?img=57",
   },
   {
-    title: "Patrick M.",
+    title: "Leroy T.",
     description:
       "I’ve been to a lot of barbershops over the years, but working with Q is by far the best. I would highly recommend this place to anyone looking for a great haircut",
     image: "https://i.pravatar.cc/100?img=55",
   },
   {
-    title: "Patrick M.",
+    title: "Gilbert M.",
     description:
       "I had a great experience at Local Legendz Barbershop. The staff was friendly and welcoming, and the haircut I received was top-notch. I would definitely recommend this place to anyone looking for a great haircut.",
     image: "https://i.pravatar.cc/100?img=54",
